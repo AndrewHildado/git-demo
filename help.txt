@@ -1,6 +1,11 @@
-在gitbush中写入
+在gitbash中写入
 git config --system http.sslverify false
 /*如果出现在push到远程库时报错为
 fatal: unable to access 'https://github.com/AndrewHildado/git-demo.git/': SSL certificate problem: unable to get local issuer certificate时
 可以先输入上述代码解决报错问题*/
 为了避免踩坑一定要提前查看此命令
+//在git通过 ssh方式登陆时
+需要现在C盘用户中找到当前用户根目录使用git bash输入如下命令
+ssh-keygen -t rsa -C "15904306959@163.com"
+然后敲击回车三次
+
