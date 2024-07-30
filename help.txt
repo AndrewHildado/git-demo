@@ -3,3 +3,4 @@ git config --system http.sslverify false
 /*如果出现在push到远程库时报错为
 fatal: unable to access 'https://github.com/AndrewHildado/git-demo.git/': SSL certificate problem: unable to get local issuer certificate时
 可以先输入上述代码解决报错问题*/
+为了避免踩坑一定要提前查看此命令
