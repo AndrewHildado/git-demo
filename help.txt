@@ -10,4 +10,4 @@ ssh-keygen -t rsa -C "15904306959@163.com"
 然后敲击回车三次
 看来是pull和push都没问题了，开心
 接下来学完git要学一下vim使用linux和maven和mysql和springboot还有java高级部分
-
+成功了！
